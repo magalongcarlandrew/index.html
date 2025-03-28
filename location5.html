@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket List</title>
+    <link rel="stylesheet" href="places.css">
+    <link rel = "icon" href="faviicon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F3EEEA;
+    color: #776B5D;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+/* Navigation Links */
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    font-size: 0.7rem;
+    background: #B0A695;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(176, 166, 149, 0.4);
+    width: 100%; /* Make it full width */
+    max-width: none; /* Remove any width constraints */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #F3EEEA;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    color: #776B5D;
+    background: #F3EEEA;
+    transform: translateY(-3px);
+}
+        img {
+            border: 5px solid #776B5D;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="nav-links">
+            <a href="places.html"><i class="fa-solid fa-arrow-left"></i> BACK</a>
+        </nav>
+    </div>
+
+    <img src="iceland.jpg" usemap="#worldmap" alt="Dream Places" width="1050" style="height: auto;">
+
+</body>
+</html>

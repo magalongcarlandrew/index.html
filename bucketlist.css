@@ -1,0 +1,122 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F3EEEA;
+    color: #776B5D;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Navigation Links */
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 0.7rem;
+    background: #B0A695;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(176, 166, 149, 0.4);
+    width: 100%;
+    max-width: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #F3EEEA;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    color: #776B5D;
+    background: #F3EEEA;
+    transform: translateY(-3px);
+}
+
+/* Bucket List Container */
+.bucket-container {
+    background: #EBE3D5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(176, 166, 149, 0.3);
+    width: 400px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clipboard {
+    width: 100%;
+    height: 40px;
+    background: #B0A695;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3EEEA;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+h2 {
+    color: #B0A695;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #776B5D;
+    border: 2px solid #B0A695;
+    border-radius: 8px;
+    padding: 10px;
+    background: #F3EEEA;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Image Styling */
+.bucket-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bucket-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 2px solid #B0A695;
+}
